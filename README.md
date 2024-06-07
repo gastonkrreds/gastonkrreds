@@ -1,58 +1,41 @@
-```
-PROFILE_README = {
-    "name": "Juan Pérez",
-    "description": "¡Hola! Soy Juan Pérez, un desarrollador de software apasionado por la tecnología y la innovación.",
+![Captura de pantalla 2024-06-07 104709](https://github.com/gastonkrreds/gastonkrreds/assets/170871992/10aa729e-d99c-4af8-8b08-511ea64f72bf)
+
+
+``` py
+Gaston = {
+    "type": "Data Science and Business intelligence",
+    "description": "passionate about data. I like telling stories from data, statistics and visualisation. I am always learning new technologies.",
     "skills": [
         "Python",
-        "JavaScript",
-        "HTML/CSS",
-        "React",
-        "Node.js"
+        "SQL",
+        "Power BI",
+        "R",
+        "Tableau"
     ],
     "interests": [
-        "Desarrollo web",
+        "Stadistics",
         "Inteligencia artificial",
         "Machine learning",
-        "Desarrollo móvil"
+        "Dashboards"
     ],
     "projects": [
         {
-            "name": "Proyecto1",
-            "description": "Una herramienta para gestionar tareas de manera eficiente.",
-            "link": "https://github.com/juanperez/proyecto1"
+            "name": "Reconocimiento facial",
+            "description": "Reconocimiento facial usando opencv con python",
+            "link": ""
         },
         {
-            "name": "Proyecto2",
-            "description": "Una aplicación web para seguimiento de hábitos.",
-            "link": "https://github.com/juanperez/proyecto2"
+            "name": "",
+            "description": "",
+            "link": ""
         }
     ],
-    "contact": {
-        "email": "juan.perez@example.com",
-        "linkedin": "https://www.linkedin.com/in/juanperez",
-        "twitter": "https://twitter.com/juanperez"
+   "contact": {
+        "email": "gastonkrreds@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/gaston-carreño/",
+        "twitter": ""
     }
 }
-
-def print_profile_readme(profile_readme):
-    print(f"# {profile_readme['name']}\n")
-    print(f"{profile_readme['description']}\n")
-    print("## Habilidades\n")
-    for skill in profile_readme["skills"]:
-        print(f"- {skill}")
-    print("\n## Intereses\n")
-    for interest in profile_readme["interests"]:
-        print(f"- {interest}")
-    print("\n## Proyectos\n")
-    for project in profile_readme["projects"]:
-        print(f"- [{project['name']}]({project['link']}): {project['description']}")
-    print("\n## Contacto\n")
-    print(f"- **Email**: [{profile_readme['contact']['email']}](mailto:{profile_readme['contact']['email']})")
-    print(f"- **LinkedIn**: [LinkedIn]({profile_readme['contact']['linkedin']})")
-    print(f"- **Twitter**: [Twitter]({profile_readme['contact']['twitter']})")
-
-if __name__ == "__main__":
-    print_profile_readme(PROFILE_README)
 ```
 
 
