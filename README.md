@@ -4,8 +4,8 @@
 ``` py
 Gaston = {
     "type": "Data Science and Business intelligence",
-    "description": "passionate about data. I like telling stories from data, statistics and visualisation.
-                    I am always learning new technologies.",
+    "description": "passionate about data. I like telling stories from data, statistics and visualisation."
+                    "I am always learning new technologies.",
     "skills": [
         "Python",
         "SQL",
